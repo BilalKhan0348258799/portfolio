@@ -1,5 +1,6 @@
 // app/layout.tsx
 import '../styles/globals.css';
+import Link from 'next/link';
 
 export const metadata = {
   title: 'Muhammad Bilal | Portfolio',
@@ -18,9 +19,15 @@ export default function RootLayout({
           <div className="container mx-auto flex justify-between items-center">
             <h1 className="text-2xl font-bold tracking-wide">Muhammad Bilal</h1>
             <nav>
-              <a href="/" className="px-4 hover:underline">Home</a>
-              <a href="/about" className="px-4 hover:underline">About</a>
-              <a href="/contact" className="px-4 hover:underline">Contact</a>
+              <Link href="/" className="px-4 hover:underline">
+                Home
+              </Link>
+              <Link href="/about" className="px-4 hover:underline">
+                About
+              </Link>
+              <Link href="/contact" className="px-4 hover:underline">
+                Contact
+              </Link>
             </nav>
           </div>
         </header>

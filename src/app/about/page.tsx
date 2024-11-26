@@ -6,9 +6,11 @@ export default function About() {
           About Me
         </h2>
         <p className="text-lg leading-relaxed">
-          My name is <span className="font-semibold">Muhammad Bilal</span>. I am a student of <span className="font-semibold">BSCS</span> at a well-known university and a proud participant in the <span className="font-semibold">Governor's Initiative</span> for Artificial Intelligence and Cloud Computing. I am passionate about technology and eager to make impactful contributions to the tech world.
+          My name is <span className="font-semibold">Muhammad Bilal</span>. I am a student of <span className="font-semibold">BSCS</span> at a well-known university and a proud participant in the <span className="font-semibold">Governor&apos;s Initiative</span> for Artificial Intelligence and Cloud Computing. I am passionate about technology and eager to make impactful contributions to the tech world.
         </p>
       </div>
     );
-  }
+}
+
+
   
